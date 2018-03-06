@@ -19,7 +19,7 @@
         <div class="panel-heading">
           <h3 class="panel-title">City</h3>
         </div>
-        <div class="panel-body text-danger">
+        <div class="panel-body text-danger city-name">
           {{ cityData.cityName }}
         </div>
       </div>
@@ -47,7 +47,7 @@
           {{ cityData.description }}
         </div>
       </div>
-      <div class="">
+      <div>
         <h4>Nasa Satellite Picture of Coordinates:</h4>
         <img class="weather-pic sizer" :src="nasaImageUrl" alt="">
       </div>
