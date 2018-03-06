@@ -10,6 +10,25 @@
         </button>
       </router-link>
     </div>
+    <br>
+    <div class="appInfo">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">What does Burke Weather! do?</h3>
+        </div>
+        <div class="panel-body">
+          Burke Weather! is a low-memory weather-by-zip-code app.
+        </div>
+      </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Who is this app for?</h3>
+        </div>
+        <div class="panel-body">
+          Anyone who lacks the internet connection speeds who needs the weather asap.
+        </div>
+      </div>
+    </div>
   </body>
 </template>
 
@@ -25,6 +44,14 @@ export default {
   flex-direction: column;
   align-items: center;
   align-self: center;
+}
+
+.appInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
 }
 
 </style>
