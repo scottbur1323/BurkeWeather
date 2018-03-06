@@ -17,4 +17,4 @@ For this project, you will build a light application that reads data, has end-to
 
 ### Submission
 
-Add a link to your code [here](#), and your deployed site [here](#).
+Add a link to your code (my code is in this repo), and your deployed site: https://burkeweatherb2p.firebaseapp.com/#/
