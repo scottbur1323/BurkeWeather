@@ -4,7 +4,7 @@
       <h1>Burke Weather!</h1>
       <div class="form-group">
         <label class="control-label" for="focusedInput">Enter your zip code here:</label>
-        <input  @keyup.enter="getWeather" type="number" maxlength="5" size="8" v-model="inputZip" class="form-control  make-wider" id="focusedInput">
+        <input @keyup.enter="getWeather" type="number" maxlength="5" size="8" v-model="inputZip" class="form-control  make-wider" id="focusedInput">
         <button class="btn btn-danger" @click="getWeather" type="button" name="button">Enter</button>
       </div>
       <div class="panel panel-primary">
@@ -105,16 +105,6 @@ export default {
             })
         } else alert("Zip Code Needs to Be 5 digits")
       },
-      // lookupPicture: function() {
-      //     fetch('../../static/weathers.json')
-      //       .then(response => {
-      //         return response.json()
-      //       })
-      //       .then(response => {
-      //         this.tempAPIInfo = response
-      //         this.lookupMapPicture()
-      //       })
-      // },
       lookupMapPicture: function() {
         var lat = "&lat=" + this.cityData.latitude
         var lon = "lon=" + this.cityData.longitude

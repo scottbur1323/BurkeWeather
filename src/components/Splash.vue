@@ -1,7 +1,7 @@
 <template lang="html">
   <body id="splash" class="body">
     <div class="everything">
-      <h1 class="animated rollIn">Burke Weather!</h1>
+      <h1 id="mainHeader" class="animated flipInX infinite">Burke Weather!</h1>
     </div>
     <div>
       <router-link :to="{ name: 'Home'}">
@@ -18,13 +18,11 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 
 #splash {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: center;
   align-items: center;
   align-self: center;
 }
