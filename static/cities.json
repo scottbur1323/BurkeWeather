@@ -1,0 +1,36 @@
+{
+    "id": 4463523,
+    "name": "Denver",
+    "country": "US",
+    "coord": {
+      "lon": -81.0298,
+      "lat": 35.53125
+    }
+},
+{
+    "id": 5368361,
+    "name": "Los Angeles",
+    "country": "US",
+    "coord": {
+      "lon": -118.243683,
+      "lat": 34.052231
+    }
+},
+{
+  "id": 5128581,
+  "name": "New York",
+  "country": "US",
+  "coord": {
+    "lon": -74.005966,
+    "lat": 40.714272
+  }
+},
+{
+  "id": 5879400,
+  "name": "Anchorage",
+  "country": "US",
+  "coord": {
+    "lon": -149.900284,
+    "lat": 61.21806
+  }
+}
