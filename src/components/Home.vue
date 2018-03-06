@@ -1,7 +1,7 @@
 <template>
   <body class="body">
     <div class="everything">
-      <h1>Burke Weather!</h1>
+      <h1 class="animated flipInX">Burke Weather!</h1>
       <div class="form-group">
         <label class="control-label" for="focusedInput">Enter your zip code here:</label>
         <input @keyup.enter="getWeather" type="number" maxlength="5" size="8" v-model="inputZip" class="form-control  make-wider" id="focusedInput">
@@ -49,7 +49,7 @@
       </div>
       <div>
         <h4>Nasa Satellite Picture of Coordinates:</h4>
-        <img class="weather-pic sizer" :src="nasaImageUrl" alt="">
+        <img class="weather-pic sizer" :src="nasaImageUrl">
       </div>
 
     </div>
@@ -96,7 +96,6 @@ export default {
               this.cityData.longitude = response.coord.lon
               this.cityData.latitude = response.coord.lat
               this.lookupMapPicture()
-              //this.lookupPicture()
             })
             .catch(error => {
               alert("Uh oh, that zip code didn't seem to work...try another one.")
@@ -122,9 +121,6 @@ export default {
             console.log(error)
           })
       }
-  },
-  created() {
-    //nothing yet
   }
 }
 
