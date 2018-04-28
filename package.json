@@ -12,6 +12,7 @@
   "dependencies": {
     "animate.css": "^3.6.1",
     "bootstrap": "^4.0.0",
+    "hoek": "^5.0.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

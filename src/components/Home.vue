@@ -64,7 +64,7 @@ export default {
     return {
       weatherAPI: 'https://api.openweathermap.org/data/2.5/weather?zip=',
       weatherKey: "&APPID=262303768614f8e18789b312097675b8",
-      nasaAPI: "https://api.nasa.gov/planetary/earth/imagery?",
+      nasaAPI: "https://api.nasa.gov/planetary/earth/imagery/?",
       nasaKey: "EwX2q6G0QtxB1bFBHrxa6M2v1ZNjYtjKWYQXIjSg",
       inputZip: "",
       nasaImageUrl: "",
