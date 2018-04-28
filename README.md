@@ -1,5 +1,5 @@
 ## Deployed
-Visit deployed site: https://burkeweatherb2p.firebaseapp.com/#/## Galvanize Web App
+Visit deployed site: https://burkeweatherb2p.firebaseapp.com/#
 
 ### Instructions
 Are you tired of having loading issues with your weather app when cell phone service isn't the best?  Try our very low memory free and open source weather app.  Simply enter your current zip code and let BurkeWeather tell you the current weather conditions.  You even get a bonus NASA map of your zip code location.
