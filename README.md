@@ -1,20 +1,16 @@
-## Galvanize Web App
-
-For this project, you will build a light application that reads data, has end-to-end testing, and integrates with an API. The topic is up to you, so pick a project that speaks to your interests.
+## Deployed
+Visit deployed site: https://burkeweatherb2p.firebaseapp.com/#/## Galvanize Web App
 
 ### Instructions
+Are you tired of having loading issues with your weather app when cell phone service isn't the best?  Try our very low memory free and open source weather app.  Simply enter your current zip code and let BurkeWeather tell you the current weather conditions.  You even get a bonus NASA map of your zip code location.
 
-* You should have a brochure page that has information about what your app does and who it's for.
-* Your app should make a GET request to an external API
-* Your app should also pull from a second source of data. This can be another API, another endpoint on the same API, or from a local `.json` file
-* You need to write some data transformation that combines the two objects in a meaningful way
-* The resulting data should be dynamically added to the page
-* You should allow a user to change the API end point. For example, get data about a specific movie, weather for a specific zip code, etc
-* Your app should have end-to-end tests
-* Deploy your app
+### Future of app
+BurkeWeather remains a living and breathing app.  It is on my radar for future updates and features that will refine the web app.  Some future ideas include:
+  * Adding pictures/icons of certain weather conditions that will dynamically be displayed.
+  * Offering to the user to let the browser determine their location.
+  * Adding a predictive weather broken up weekly, daily or hourly.
+  
+### Questions?
+Don't hesitate to send me an email with any questions or suggestions :)
+  
 
----
-
-### Submission
-
-Add a link to your code (my code is in this repo), and your deployed site: https://burkeweatherb2p.firebaseapp.com/#/
